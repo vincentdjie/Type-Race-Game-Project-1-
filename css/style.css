@@ -1,0 +1,164 @@
+body {
+    background-image: url(../img/galaxy.jpg);
+    background-size: cover; 
+    background-attachment: fixed; 
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 238, 0);
+    font-family: 'Space Mono', monospace;
+    font-size: 49px;
+    margin-bottom: -50px;
+    margin-top: -10px;
+}
+
+#result {
+    color: yellow;
+    font-family: fantasy;
+}
+
+#subheading {
+    color: skyblue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* Small timer box on right */
+#timer {
+    color: skyblue;
+    text-align: right;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    margin-right: 50px;
+    padding: 10px;
+    border-color: red;
+    border-style: dashed;
+}
+
+
+#countdown { 
+    display:none;
+    position:fixed; 
+    height:300px;  
+    width:300px;  
+    background: #fff;  
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    z-index:100;     
+    padding:15px;  
+    font-size:15px;  
+    -moz-box-shadow: 0 0 5px;
+    -webkit-box-shadow: 0 0 5px;
+    box-shadow: 0 0 5px;
+}
+
+/* Div of the whole nyancat and dash line */
+.progressbar {
+    width: 1000px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Dashed lines for progress bar */
+.dash {
+    border: 0 none;
+    border-top: 5px dashed whitesmoke;
+    background: none;
+    height: 10x;
+}
+
+/* Nyan Cat Progress Bar */
+.nyancat1 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+.nyancat2 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    left: 200px;
+}
+.nyancat3 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    left: 400px;
+}
+.nyancat4 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    left: 600px;
+}
+.nyancat5 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    left: 800px;
+}
+.parent {
+    width: 1000px;
+    position: relative;
+}
+
+
+
+.correct {
+    background-color: rgb(127, 255, 0, 0.5);
+}
+
+.reset {
+    background-color: transparent;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+#typebox {
+    width: 900px;
+    height: 30px;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+#reset {
+    font-size: 22px;
+    font-family: 'Futura';
+    font-weight: bold;
+    color: rgb(255, 17, 0);
+    margin-top: 20px;
+    padding: 10px 25px;
+    opacity: 0.6;
+}
+#reset:hover {
+    background-color: rgb(243, 243, 88);
+}
+
+#sentencebox {
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 29px;
+    color:rgba(255, 255, 255, 0.76);
+    background-color: rgb(255, 255, 240, 0.2);
+    width: 1000px;
+    height: 200px;
+}
+

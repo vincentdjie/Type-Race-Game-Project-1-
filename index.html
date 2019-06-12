@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Type-Racing Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Ultimate Type-Racing Game!</h1>
+    </header>
+    
+    <main id="container">
+        <div class="flex">
+            <div> 
+                <p id="subheading">\(^o ^\) The race is about to start! (/^ o^)/</p>
+            </div>
+
+            <div>
+                <h2 id="result"></h2>
+            </div>
+            
+            <div id="timerbox"> 
+                <p id="timer">0:00</p>
+            </div>
+        </div>
+        
+
+        <div class="progressbar">
+            <div class="parent">
+               <img class="nyancat1" src="img/nyancat.gif"></img>
+            </div>
+            <hr class="dash"></hr>
+        </div>
+
+        <div id="sentencebox">
+            <p id="highlight"></p>
+        </div>
+        <div>
+            <input type="text" id="typebox" placeholder="Type above sentence here when race begins!">
+        </div>
+    </main>
+
+    <button id="reset">New Race</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
