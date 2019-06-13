@@ -1,3 +1,7 @@
+audio {
+    display: none;
+}
+
 body {
     background-image: url(../img/galaxy.jpg);
     background-size: cover; 
@@ -30,7 +34,7 @@ h1 {
 #timer {
     color: skyblue;
     text-align: right;
-    font-size: 50px;
+    font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
     margin-right: 50px;
@@ -109,6 +113,13 @@ h1 {
     top: -100px;
     left: 800px;
 }
+/* .hidden {
+    display: hidden;
+  }
+
+.visible {
+    display: visible;
+} */
 .parent {
     width: 1000px;
     position: relative;

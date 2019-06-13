@@ -22,7 +22,7 @@
             <div>
                 <h2 id="result"></h2>
             </div>
-            
+
             <div id="timerbox"> 
                 <p id="timer">0:00</p>
             </div>
@@ -31,7 +31,11 @@
 
         <div class="progressbar">
             <div class="parent">
-               <img class="nyancat1" src="img/nyancat.gif"></img>
+               <img id="nyancat" class="nyancat1" src="img/nyancat.gif"></img>
+               <!-- <img class="nyancat2" src="img/nyancat.gif"></img>
+               <img class="nyancat3" src="img/nyancat.gif"></img>
+               <img class="nyancat4" src="img/nyancat.gif"></img>
+               <img class="nyancat5" src="img/nyancat.gif"></img> -->
             </div>
             <hr class="dash"></hr>
         </div>
@@ -45,6 +49,9 @@
     </main>
 
     <button id="reset">New Race</button>
+    <audio controls>
+        <source id="startrace" src="../typerace/audio/startrace.m4a" type="audio/mp4">
+    </audio>
     <script src="js/script.js"></script>
 </body>
 </html>
