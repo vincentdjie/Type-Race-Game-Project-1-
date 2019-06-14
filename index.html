@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <header>
         <h1>Welcome to the Ultimate Type-Racing Game!</h1>
     </header>
     
     <main id="container">
         <div class="flex">
-            <div> 
+            <div id="subdiv"> 
                 <p id="subheading">\(^o ^\) The race is about to start! (/^ o^)/</p>
             </div>
 
@@ -32,10 +32,6 @@
         <div class="progressbar">
             <div class="parent">
                <img id="nyancat" class="nyancat1" src="img/nyancat.gif"></img>
-               <!-- <img class="nyancat2" src="img/nyancat.gif"></img>
-               <img class="nyancat3" src="img/nyancat.gif"></img>
-               <img class="nyancat4" src="img/nyancat.gif"></img>
-               <img class="nyancat5" src="img/nyancat.gif"></img> -->
             </div>
             <hr class="dash"></hr>
         </div>
@@ -49,9 +45,14 @@
     </main>
 
     <button id="reset">New Race</button>
-    <audio controls>
-        <source id="startrace" src="../typerace/audio/startrace.m4a" type="audio/mp4">
-    </audio>
+
+    <audio id="idle" src="audio/idle.mp3"></audio>
+    <audio id="startrace" src="audio/startrace.m4a"></audio>
+    <audio id="shootingstar" src="audio/shootingstar.mp3"></audio>
+    <audio id="yay" src="audio/yay.mp3"></audio>
+    <audio id="boo" src="audio/boo.mp3"></audio>
+    <audio id="meow" src="audio/meow.mp3"></audio>
+
     <script src="js/script.js"></script>
 </body>
 </html>

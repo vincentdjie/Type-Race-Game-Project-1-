@@ -164,6 +164,7 @@ h1 {
 
 #sentencebox {
     text-align: center;
+    margin: 0 auto;
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 29px;
