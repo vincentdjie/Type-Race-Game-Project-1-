@@ -176,24 +176,24 @@ function endGame(win) {
 function moveCat() {
     var i = sentence[int].length / letterCounter
     console.log(i); //debug
-    if (3.9 < i && i < 4.1) {
-        img.classList.remove("nyancat1")
-        img.classList.add("nyancat2");
+    if (3.95 < i && i < 4.05) {
         audiomeow.play();
         // audiomeow.pause();
-        // audiomeow.currentTime = 0;
-    } else if (1.9 < i && i < 2.1) {
+        audiomeow.currentTime = 0;
+        img.classList.remove("nyancat1")
+        img.classList.add("nyancat2");
+    } else if (1.95 < i && i < 2.02) {
+        audiomeow.play();
+        // audiomeow.pause();
+        audiomeow.currentTime = 0;
         img.classList.remove("nyancat2");
         img.classList.add("nyancat3");
+    } else if (1.2 < i && i < 1.22) {
         audiomeow.play();
-        audiomeow.pause();
+        // audiomeow.pause();
         audiomeow.currentTime = 0;
-    } else if (1.2 < i && i < 1.25) {
         img.classList.remove("nyancat3")
         img.classList.add("nyancat4");
-        audiomeow.play();
-        audiomeow.pause();
-        audiomeow.currentTime = 0;
     } else if (i === 1) {
         img.classList.remove("nyancat4")
         img.classList.add("nyancat5");
